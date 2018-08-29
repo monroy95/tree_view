@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
 import re, ast
 
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
